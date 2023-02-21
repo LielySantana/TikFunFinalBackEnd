@@ -1,0 +1,6 @@
+framework module Pods_TikKid {
+  umbrella header "Pods-TikKid-umbrella.h"
+
+  export *
+  module * { export * }
+}

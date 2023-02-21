@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E84AA181298E38410091F06E /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA180298E38410091F06E /* SettingsVC.swift */; };
+		E84AA183298E3FCE0091F06E /* Gilroy-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E84AA182298E3FCE0091F06E /* Gilroy-Semibold.ttf */; };
+		E84AA187298E45940091F06E /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA186298E45940091F06E /* StoreVC.swift */; };
+		E84AA18A298E4A460091F06E /* PKIAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA189298E4A460091F06E /* PKIAPHandler.swift */; };
+		E84AA18C298E721D0091F06E /* CategoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA18B298E721D0091F06E /* CategoryDetailsVC.swift */; };
+		E84AA190298E75820091F06E /* UserCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA18E298E75820091F06E /* UserCVC.swift */; };
+		E84AA191298E75820091F06E /* UserCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84AA18F298E75820091F06E /* UserCVC.xib */; };
+		E84AA196298E78290091F06E /* StarRatingStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA193298E78290091F06E /* StarRatingStackView.swift */; };
+		E84AA197298E78290091F06E /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA194298E78290091F06E /* StarRatingView.swift */; };
+		E84AA198298E78290091F06E /* StarRatingStackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84AA195298E78290091F06E /* StarRatingStackView.xib */; };
+		E84AA19A298E7AFC0091F06E /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = E84AA199298E7AFC0091F06E /* profile.png */; };
+		E84AA19D298E7C0B0091F06E /* PostCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA19B298E7C0B0091F06E /* PostCVC.swift */; };
+		E84AA19E298E7C0B0091F06E /* PostCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E84AA19C298E7C0B0091F06E /* PostCVC.xib */; };
+		E84AA1A0298E7C820091F06E /* video_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = E84AA19F298E7C820091F06E /* video_bg.png */; };
+		E84AA1A2298E9FB20091F06E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84AA1A1298E9FB20091F06E /* ProfileVC.swift */; };
+		E8CBF3E829895360001104A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBF3E729895360001104A2 /* AppDelegate.swift */; };
+		E8CBF3EF29895360001104A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF3ED29895360001104A2 /* Main.storyboard */; };
+		E8CBF3F129895362001104A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF3F029895362001104A2 /* Assets.xcassets */; };
+		E8CBF3F429895362001104A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF3F229895362001104A2 /* LaunchScreen.storyboard */; };
+		E8CBF3FD2989540D001104A2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF3FC2989540D001104A2 /* logo.png */; };
+		E8CBF4022989553A001104A2 /* splash4.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF3FE2989553A001104A2 /* splash4.png */; };
+		E8CBF4032989553A001104A2 /* splash2.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF3FF2989553A001104A2 /* splash2.png */; };
+		E8CBF4042989553A001104A2 /* splash1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF4002989553A001104A2 /* splash1.png */; };
+		E8CBF4052989553A001104A2 /* splash3.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF4012989553A001104A2 /* splash3.png */; };
+		E8CBF40829895559001104A2 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBF40729895559001104A2 /* OnboardingVC.swift */; };
+		E8CBF40D2989564F001104A2 /* msg2.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF4092989564F001104A2 /* msg2.png */; };
+		E8CBF40E2989564F001104A2 /* msg1.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF40A2989564F001104A2 /* msg1.png */; };
+		E8CBF40F2989564F001104A2 /* msg4.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF40B2989564F001104A2 /* msg4.png */; };
+		E8CBF4102989564F001104A2 /* msg3.png in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF40C2989564F001104A2 /* msg3.png */; };
+		E8CBF4132989627E001104A2 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF4122989627E001104A2 /* Poppins-Light.ttf */; };
+		E8CBF41529896289001104A2 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF41429896289001104A2 /* Poppins-Medium.ttf */; };
+		E8CBF41729896292001104A2 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF41629896292001104A2 /* Poppins-Regular.ttf */; };
+		E8CBF4192989629B001104A2 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF4182989629B001104A2 /* Poppins-SemiBold.ttf */; };
+		E8CBF41B29896AF4001104A2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBF41A29896AF4001104A2 /* LoginVC.swift */; };
+		E8CBF41E29896B43001104A2 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBF41D29896B43001104A2 /* Utility.swift */; };
+		E8CBF42129896CD2001104A2 /* Sherika-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E8CBF42029896CD2001104A2 /* Sherika-ExtraBold.otf */; };
+		E8CBF42329896F25001104A2 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CBF42229896F25001104A2 /* DashboardVC.swift */; };
+		EB82EC411FCF2A48CC16EF9F /* Pods_TikKid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D9F629EA60C4ADD476B419 /* Pods_TikKid.framework */; };
+		FC27E7E629A3DBDD003C68D7 /* userIdVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E7E529A3DBDD003C68D7 /* userIdVM.swift */; };
+		FC27E7E829A3DC1C003C68D7 /* userListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E7E729A3DC1C003C68D7 /* userListVM.swift */; };
+		FC27E7EE29A3DD13003C68D7 /* userModelSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC27E7ED29A3DD13003C68D7 /* userModelSearch.swift */; };
+		FC3369B429A3FFF000CDD2CA /* statisticsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3369B329A3FFF000CDD2CA /* statisticsVM.swift */; };
+		FC3369B629A4000000CDD2CA /* statisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3369B529A4000000CDD2CA /* statisticModel.swift */; };
+		FC5A945629A3CD4F0001A9E1 /* ReceiptValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5A945529A3CD4F0001A9E1 /* ReceiptValidator.m */; };
+		FC5A945829A3CD820001A9E1 /* TikKidStoreConfig.storekit in Resources */ = {isa = PBXBuildFile; fileRef = FC5A945729A3CD820001A9E1 /* TikKidStoreConfig.storekit */; };
+		FC5A945F29A3CE000001A9E1 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A945E29A3CE000001A9E1 /* UserModel.swift */; };
+		FC5A946129A3CE110001A9E1 /* VideoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A946029A3CE110001A9E1 /* VideoModel.swift */; };
+		FC5A946329A3CE2F0001A9E1 /* userVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A946229A3CE2F0001A9E1 /* userVM.swift */; };
+		FC5A946529A3CE4D0001A9E1 /* videoVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A946429A3CE4D0001A9E1 /* videoVM.swift */; };
+		FC5A946829A3CEAC0001A9E1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5A946729A3CEAC0001A9E1 /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D08A1F5441A91EAC6786C99 /* Pods-TikKid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikKid.debug.xcconfig"; path = "Target Support Files/Pods-TikKid/Pods-TikKid.debug.xcconfig"; sourceTree = "<group>"; };
+		65AC9EDF0525AD6CACF0F5AF /* Pods-TikKid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TikKid.release.xcconfig"; path = "Target Support Files/Pods-TikKid/Pods-TikKid.release.xcconfig"; sourceTree = "<group>"; };
+		B4D9F629EA60C4ADD476B419 /* Pods_TikKid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TikKid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E84AA180298E38410091F06E /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		E84AA182298E3FCE0091F06E /* Gilroy-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Semibold.ttf"; sourceTree = "<group>"; };
+		E84AA186298E45940091F06E /* StoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		E84AA189298E4A460091F06E /* PKIAPHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKIAPHandler.swift; sourceTree = "<group>"; };
+		E84AA18B298E721D0091F06E /* CategoryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryDetailsVC.swift; sourceTree = "<group>"; };
+		E84AA18E298E75820091F06E /* UserCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCVC.swift; sourceTree = "<group>"; };
+		E84AA18F298E75820091F06E /* UserCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserCVC.xib; sourceTree = "<group>"; };
+		E84AA193298E78290091F06E /* StarRatingStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingStackView.swift; sourceTree = "<group>"; };
+		E84AA194298E78290091F06E /* StarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		E84AA195298E78290091F06E /* StarRatingStackView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StarRatingStackView.xib; sourceTree = "<group>"; };
+		E84AA199298E7AFC0091F06E /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		E84AA19B298E7C0B0091F06E /* PostCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCVC.swift; sourceTree = "<group>"; };
+		E84AA19C298E7C0B0091F06E /* PostCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostCVC.xib; sourceTree = "<group>"; };
+		E84AA19F298E7C820091F06E /* video_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_bg.png; sourceTree = "<group>"; };
+		E84AA1A1298E9FB20091F06E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		E8CBF3E429895360001104A2 /* TikKid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikKid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8CBF3E729895360001104A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8CBF3EE29895360001104A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8CBF3F029895362001104A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8CBF3F329895362001104A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8CBF3F529895362001104A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8CBF3FC2989540D001104A2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		E8CBF3FE2989553A001104A2 /* splash4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash4.png; sourceTree = "<group>"; };
+		E8CBF3FF2989553A001104A2 /* splash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash2.png; sourceTree = "<group>"; };
+		E8CBF4002989553A001104A2 /* splash1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash1.png; sourceTree = "<group>"; };
+		E8CBF4012989553A001104A2 /* splash3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash3.png; sourceTree = "<group>"; };
+		E8CBF40729895559001104A2 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		E8CBF4092989564F001104A2 /* msg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg2.png; sourceTree = "<group>"; };
+		E8CBF40A2989564F001104A2 /* msg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg1.png; sourceTree = "<group>"; };
+		E8CBF40B2989564F001104A2 /* msg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg4.png; sourceTree = "<group>"; };
+		E8CBF40C2989564F001104A2 /* msg3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msg3.png; sourceTree = "<group>"; };
+		E8CBF4122989627E001104A2 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		E8CBF41429896289001104A2 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		E8CBF41629896292001104A2 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E8CBF4182989629B001104A2 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E8CBF41A29896AF4001104A2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E8CBF41D29896B43001104A2 /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		E8CBF42029896CD2001104A2 /* Sherika-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sherika-ExtraBold.otf"; sourceTree = "<group>"; };
+		E8CBF42229896F25001104A2 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		FC27E7E529A3DBDD003C68D7 /* userIdVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userIdVM.swift; sourceTree = "<group>"; };
+		FC27E7E729A3DC1C003C68D7 /* userListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userListVM.swift; sourceTree = "<group>"; };
+		FC27E7ED29A3DD13003C68D7 /* userModelSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userModelSearch.swift; sourceTree = "<group>"; };
+		FC3369B329A3FFF000CDD2CA /* statisticsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statisticsVM.swift; sourceTree = "<group>"; };
+		FC3369B529A4000000CDD2CA /* statisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statisticModel.swift; sourceTree = "<group>"; };
+		FC5A945329A3CD210001A9E1 /* ReceiptValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReceiptValidator.h; sourceTree = "<group>"; };
+		FC5A945429A3CD4F0001A9E1 /* TikKid-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TikKid-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC5A945529A3CD4F0001A9E1 /* ReceiptValidator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReceiptValidator.m; sourceTree = "<group>"; };
+		FC5A945729A3CD820001A9E1 /* TikKidStoreConfig.storekit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TikKidStoreConfig.storekit; sourceTree = "<group>"; };
+		FC5A945929A3CD8F0001A9E1 /* StoreKitTestCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = StoreKitTestCertificate.cer; sourceTree = "<group>"; };
+		FC5A945E29A3CE000001A9E1 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FC5A946029A3CE110001A9E1 /* VideoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModel.swift; sourceTree = "<group>"; };
+		FC5A946229A3CE2F0001A9E1 /* userVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userVM.swift; sourceTree = "<group>"; };
+		FC5A946429A3CE4D0001A9E1 /* videoVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoVM.swift; sourceTree = "<group>"; };
+		FC5A946729A3CEAC0001A9E1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8CBF3E129895360001104A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB82EC411FCF2A48CC16EF9F /* Pods_TikKid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0303E76FD48210747DA3FEAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4D9F629EA60C4ADD476B419 /* Pods_TikKid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25D2A2D821F7583A874AB69A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D08A1F5441A91EAC6786C99 /* Pods-TikKid.debug.xcconfig */,
+				65AC9EDF0525AD6CACF0F5AF /* Pods-TikKid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E84AA188298E4A320091F06E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E84AA192298E78110091F06E /* RatingView */,
+				E84AA189298E4A460091F06E /* PKIAPHandler.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E84AA18D298E75690091F06E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E84AA18E298E75820091F06E /* UserCVC.swift */,
+				E84AA18F298E75820091F06E /* UserCVC.xib */,
+				E84AA19B298E7C0B0091F06E /* PostCVC.swift */,
+				E84AA19C298E7C0B0091F06E /* PostCVC.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E84AA192298E78110091F06E /* RatingView */ = {
+			isa = PBXGroup;
+			children = (
+				E84AA193298E78290091F06E /* StarRatingStackView.swift */,
+				E84AA195298E78290091F06E /* StarRatingStackView.xib */,
+				E84AA194298E78290091F06E /* StarRatingView.swift */,
+			);
+			path = RatingView;
+			sourceTree = "<group>";
+		};
+		E8CBF3DB29895360001104A2 = {
+			isa = PBXGroup;
+			children = (
+				E8CBF3E629895360001104A2 /* TikKid */,
+				E8CBF3E529895360001104A2 /* Products */,
+				25D2A2D821F7583A874AB69A /* Pods */,
+				0303E76FD48210747DA3FEAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8CBF3E529895360001104A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8CBF3E429895360001104A2 /* TikKid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8CBF3E629895360001104A2 /* TikKid */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A946629A3CE950001A9E1 /* Extensions */,
+				FC5A945B29A3CDBD0001A9E1 /* ViewModels */,
+				FC5A945A29A3CDAD0001A9E1 /* Models */,
+				E84AA188298E4A320091F06E /* Library */,
+				E8CBF41C29896B38001104A2 /* Common */,
+				E8CBF3FB29895401001104A2 /* Graphics */,
+				E8CBF4112989625F001104A2 /* Fonts */,
+				E84AA18D298E75690091F06E /* Cells */,
+				E8CBF40629895547001104A2 /* Screens */,
+				E8CBF3E729895360001104A2 /* AppDelegate.swift */,
+				E8CBF3ED29895360001104A2 /* Main.storyboard */,
+				E8CBF3F029895362001104A2 /* Assets.xcassets */,
+				E8CBF3F229895362001104A2 /* LaunchScreen.storyboard */,
+				E8CBF3F529895362001104A2 /* Info.plist */,
+			);
+			path = TikKid;
+			sourceTree = "<group>";
+		};
+		E8CBF3FB29895401001104A2 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				E84AA19F298E7C820091F06E /* video_bg.png */,
+				E84AA199298E7AFC0091F06E /* profile.png */,
+				E8CBF3FC2989540D001104A2 /* logo.png */,
+				E8CBF40A2989564F001104A2 /* msg1.png */,
+				E8CBF4092989564F001104A2 /* msg2.png */,
+				E8CBF40C2989564F001104A2 /* msg3.png */,
+				E8CBF40B2989564F001104A2 /* msg4.png */,
+				E8CBF4002989553A001104A2 /* splash1.png */,
+				E8CBF3FF2989553A001104A2 /* splash2.png */,
+				E8CBF4012989553A001104A2 /* splash3.png */,
+				E8CBF3FE2989553A001104A2 /* splash4.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+		E8CBF40629895547001104A2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E8CBF40729895559001104A2 /* OnboardingVC.swift */,
+				E8CBF41A29896AF4001104A2 /* LoginVC.swift */,
+				E8CBF42229896F25001104A2 /* DashboardVC.swift */,
+				E84AA180298E38410091F06E /* SettingsVC.swift */,
+				E84AA186298E45940091F06E /* StoreVC.swift */,
+				E84AA18B298E721D0091F06E /* CategoryDetailsVC.swift */,
+				E84AA1A1298E9FB20091F06E /* ProfileVC.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E8CBF4112989625F001104A2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E84AA182298E3FCE0091F06E /* Gilroy-Semibold.ttf */,
+				E8CBF4122989627E001104A2 /* Poppins-Light.ttf */,
+				E8CBF41429896289001104A2 /* Poppins-Medium.ttf */,
+				E8CBF41629896292001104A2 /* Poppins-Regular.ttf */,
+				E8CBF4182989629B001104A2 /* Poppins-SemiBold.ttf */,
+				E8CBF42029896CD2001104A2 /* Sherika-ExtraBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E8CBF41C29896B38001104A2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E8CBF41D29896B43001104A2 /* Utility.swift */,
+				FC5A945329A3CD210001A9E1 /* ReceiptValidator.h */,
+				FC5A945529A3CD4F0001A9E1 /* ReceiptValidator.m */,
+				FC5A945429A3CD4F0001A9E1 /* TikKid-Bridging-Header.h */,
+				FC5A945929A3CD8F0001A9E1 /* StoreKitTestCertificate.cer */,
+				FC5A945729A3CD820001A9E1 /* TikKidStoreConfig.storekit */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FC5A945A29A3CDAD0001A9E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A945E29A3CE000001A9E1 /* UserModel.swift */,
+				FC5A946029A3CE110001A9E1 /* VideoModel.swift */,
+				FC27E7ED29A3DD13003C68D7 /* userModelSearch.swift */,
+				FC3369B529A4000000CDD2CA /* statisticModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FC5A945B29A3CDBD0001A9E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A946229A3CE2F0001A9E1 /* userVM.swift */,
+				FC5A946429A3CE4D0001A9E1 /* videoVM.swift */,
+				FC27E7E529A3DBDD003C68D7 /* userIdVM.swift */,
+				FC27E7E729A3DC1C003C68D7 /* userListVM.swift */,
+				FC3369B329A3FFF000CDD2CA /* statisticsVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FC5A946629A3CE950001A9E1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FC5A946729A3CEAC0001A9E1 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8CBF3E329895360001104A2 /* TikKid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8CBF3F829895362001104A2 /* Build configuration list for PBXNativeTarget "TikKid" */;
+			buildPhases = (
+				7EBDE516EA033131C0C0737A /* [CP] Check Pods Manifest.lock */,
+				E8CBF3E029895360001104A2 /* Sources */,
+				E8CBF3E129895360001104A2 /* Frameworks */,
+				E8CBF3E229895360001104A2 /* Resources */,
+				C3ACA73FB93CF1107839F22D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikKid;
+			productName = TikKid;
+			productReference = E8CBF3E429895360001104A2 /* TikKid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8CBF3DC29895360001104A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					E8CBF3E329895360001104A2 = {
+						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1420;
+					};
+				};
+			};
+			buildConfigurationList = E8CBF3DF29895360001104A2 /* Build configuration list for PBXProject "TikKid" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8CBF3DB29895360001104A2;
+			productRefGroup = E8CBF3E529895360001104A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8CBF3E329895360001104A2 /* TikKid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8CBF3E229895360001104A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8CBF3FD2989540D001104A2 /* logo.png in Resources */,
+				E8CBF41529896289001104A2 /* Poppins-Medium.ttf in Resources */,
+				E8CBF4132989627E001104A2 /* Poppins-Light.ttf in Resources */,
+				E8CBF40F2989564F001104A2 /* msg4.png in Resources */,
+				E84AA19E298E7C0B0091F06E /* PostCVC.xib in Resources */,
+				E8CBF40E2989564F001104A2 /* msg1.png in Resources */,
+				E8CBF42129896CD2001104A2 /* Sherika-ExtraBold.otf in Resources */,
+				E8CBF4192989629B001104A2 /* Poppins-SemiBold.ttf in Resources */,
+				E8CBF3F429895362001104A2 /* LaunchScreen.storyboard in Resources */,
+				E84AA198298E78290091F06E /* StarRatingStackView.xib in Resources */,
+				E8CBF40D2989564F001104A2 /* msg2.png in Resources */,
+				E8CBF4102989564F001104A2 /* msg3.png in Resources */,
+				E8CBF4042989553A001104A2 /* splash1.png in Resources */,
+				E8CBF41729896292001104A2 /* Poppins-Regular.ttf in Resources */,
+				E84AA19A298E7AFC0091F06E /* profile.png in Resources */,
+				E84AA191298E75820091F06E /* UserCVC.xib in Resources */,
+				FC5A945829A3CD820001A9E1 /* TikKidStoreConfig.storekit in Resources */,
+				E84AA1A0298E7C820091F06E /* video_bg.png in Resources */,
+				E8CBF3F129895362001104A2 /* Assets.xcassets in Resources */,
+				E8CBF4052989553A001104A2 /* splash3.png in Resources */,
+				E8CBF4032989553A001104A2 /* splash2.png in Resources */,
+				E84AA183298E3FCE0091F06E /* Gilroy-Semibold.ttf in Resources */,
+				E8CBF3EF29895360001104A2 /* Main.storyboard in Resources */,
+				E8CBF4022989553A001104A2 /* splash4.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7EBDE516EA033131C0C0737A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TikKid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3ACA73FB93CF1107839F22D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikKid/Pods-TikKid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TikKid/Pods-TikKid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TikKid/Pods-TikKid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8CBF3E029895360001104A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E84AA18A298E4A460091F06E /* PKIAPHandler.swift in Sources */,
+				FC5A945629A3CD4F0001A9E1 /* ReceiptValidator.m in Sources */,
+				FC27E7EE29A3DD13003C68D7 /* userModelSearch.swift in Sources */,
+				E84AA18C298E721D0091F06E /* CategoryDetailsVC.swift in Sources */,
+				E84AA1A2298E9FB20091F06E /* ProfileVC.swift in Sources */,
+				E8CBF41E29896B43001104A2 /* Utility.swift in Sources */,
+				E84AA190298E75820091F06E /* UserCVC.swift in Sources */,
+				FC5A946529A3CE4D0001A9E1 /* videoVM.swift in Sources */,
+				E84AA196298E78290091F06E /* StarRatingStackView.swift in Sources */,
+				FC3369B629A4000000CDD2CA /* statisticModel.swift in Sources */,
+				E84AA197298E78290091F06E /* StarRatingView.swift in Sources */,
+				FC5A946129A3CE110001A9E1 /* VideoModel.swift in Sources */,
+				E84AA187298E45940091F06E /* StoreVC.swift in Sources */,
+				FC27E7E829A3DC1C003C68D7 /* userListVM.swift in Sources */,
+				E8CBF42329896F25001104A2 /* DashboardVC.swift in Sources */,
+				FC5A946329A3CE2F0001A9E1 /* userVM.swift in Sources */,
+				FC27E7E629A3DBDD003C68D7 /* userIdVM.swift in Sources */,
+				FC5A945F29A3CE000001A9E1 /* UserModel.swift in Sources */,
+				E84AA19D298E7C0B0091F06E /* PostCVC.swift in Sources */,
+				FC5A946829A3CEAC0001A9E1 /* Extensions.swift in Sources */,
+				FC3369B429A3FFF000CDD2CA /* statisticsVM.swift in Sources */,
+				E8CBF40829895559001104A2 /* OnboardingVC.swift in Sources */,
+				E8CBF3E829895360001104A2 /* AppDelegate.swift in Sources */,
+				E8CBF41B29896AF4001104A2 /* LoginVC.swift in Sources */,
+				E84AA181298E38410091F06E /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8CBF3ED29895360001104A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CBF3EE29895360001104A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8CBF3F229895362001104A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8CBF3F329895362001104A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8CBF3F629895362001104A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8CBF3F729895362001104A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8CBF3F929895362001104A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D08A1F5441A91EAC6786C99 /* Pods-TikKid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYYJRGA78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikKid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tik Kid";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.TikKid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TikKid/Common/TikKid-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8CBF3FA29895362001104A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AC9EDF0525AD6CACF0F5AF /* Pods-TikKid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QYYJRGA78;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TikKid/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tik Kid";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.david.TikKid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TikKid/Common/TikKid-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8CBF3DF29895360001104A2 /* Build configuration list for PBXProject "TikKid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CBF3F629895362001104A2 /* Debug */,
+				E8CBF3F729895362001104A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8CBF3F829895362001104A2 /* Build configuration list for PBXNativeTarget "TikKid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8CBF3F929895362001104A2 /* Debug */,
+				E8CBF3FA29895362001104A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8CBF3DC29895360001104A2 /* Project object */;
+}
